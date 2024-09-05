@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
                 <li className="mb-4">
                   <a href="https://github.com/avhixorin" className="hover:underline">Github</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.linkedin.com/in/abhishek-bharti-1558b3290" className="hover:underline">LinkedIn</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
