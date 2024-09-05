@@ -1,50 +1,108 @@
-# React + TypeScript + Vite
+# Annapurna India
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Annapurna India](https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520033/logo_LS_lmzpjq.png)
 
-Currently, two official plugins are available:
+Annapurna India is a web-based platform dedicated to connecting people who want to donate and those in need across India. It provides a seamless way to donate food, essential supplies, and funds for charitable causes. The project aims to create a supportive community that fights hunger and helps improve the lives of underprivileged communities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contribution Guidelines](#contribution-guidelines)
+7. [License](#license)
+8. [Contact](#contact)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Project Overview
 
-- Configure the top-level `parserOptions` property like this:
+Annapurna India was created with the mission to help bridge the gap between surplus food/willing donations and those in need. This project brings together donors and organizations who provide assistance to vulnerable communities across India. Users can easily donate, connect with verified NGOs, and see the impact of their contributions.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Donor Registration**: Users can sign up and donate money, food, or essential supplies.
+- **NGO Partnership**: Verified NGOs can register on the platform to receive donations.
+- **Tracking System**: Track donation history, recipients, and the impact of the contribution.
+- **Secure Payments**: Integration of secure payment gateways to manage monetary donations.
+  
+## Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Frontend**: React.js, Tailwind CSS, HTML5, CSS3
+- **Deployment**: Vercel (Frontend)
+- **Payment Gateway**: Razorpay/Stripe
+- **Version Control**: GitHub
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Installation
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Git](https://git-scm.com/)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/avhixorin/annapurna-india.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd annapurna-india
+   
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+
+4. Run the application:
+
+   ```bash
+   npm run dev
+
+5. Open your browser and go to:
+
+   ```arduino
+   http://localhost:3000/
+
+## Usage
+
+1. **Donors** : Sign up, select items to donate (e.g., food, funds), and choose an NGO to donate to.
+2. **NGOs** : Register, verify, and receive donations through the platform.
+
+## Contribution Guidelines
+
+1. Fork the repository:
+2. Create a new branch for your feature:
+
+   ```bash
+   git checkout -b feature-name
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -m 'Add new feature'
+
+4. Push the branch:
+
+   ```bash
+   git push origin feature-name
+
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE] file for details.
+
+## Contact
+
+### For any inquiries or feedback, please contact:
+
+1. **Project Owner:**  Abhishek Bharti
+2. **Email:** annapurnaindiaofficial@gmail.com
+3. **Github:** github.com/avhixorin
+
+
