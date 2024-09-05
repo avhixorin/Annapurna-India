@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-2xl md:w-1/4 font-bold text-gray-800">
           <img
-            src="./src/assets/logo(LS).png"
+            src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520033/logo_LS_lmzpjq.png"
             alt="logo"
             className="h-8 m-1 md:h-10 hover:cursor-pointer"
             onClick={handleLogoClick}

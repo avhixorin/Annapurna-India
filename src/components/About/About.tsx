@@ -15,7 +15,7 @@ const About = () => {
             </p>
           </div>
           <div className="md:w-1/2">
-            <img src="./src/assets/about.jpeg" alt="Annapurna India Project" className="w-full h-auto rounded-lg shadow-lg" />
+            <img src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520626/about_widke7.jpg" alt="Annapurna India Project" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
         </div>
       </section>

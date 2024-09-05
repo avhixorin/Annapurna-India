@@ -29,7 +29,7 @@ const Donate = () => {
       className="flex items-center justify-center min-h-screen bg-center bg-contain"
       style={{
         backgroundImage:
-          "url('./src/assets/formBg.jpeg')",
+          "url('https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520627/formBg_tpppqm.jpg')",
       }}
     >
       <div className="relative w-full max-w-3xl p-8 mx-4 my-10 bg-white rounded-lg shadow-lg">

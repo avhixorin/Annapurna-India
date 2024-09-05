@@ -17,10 +17,10 @@ const CarouselComponent = () => {
     >
       <CarouselContent>
         <CarouselItem className="flex items-center justify-center">
-            <img src="./src/assets/pic1.jpg" className="rounded-lg" alt="carousel" />
+            <img src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520629/pic1_qfuout.jpg" className="rounded-lg" alt="carousel" />
         </CarouselItem>
         <CarouselItem className="flex items-center justify-center">
-            <img src="./src/assets/aiImg.jpg" className="object-contain rounded-lg" alt="carousel" />
+            <img src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520627/aiImg_omifvo.jpg" className="object-contain rounded-lg" alt="carousel" />
         </CarouselItem>
         
       </CarouselContent>

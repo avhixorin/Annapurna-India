@@ -31,12 +31,12 @@ const Home = () => {
       <div className="py-12 w-full flex flex-col-reverse md:flex-row">
         <div className="w-full md:w-1/2  flex justify-center">
           <img
-            src="./src/assets/pic2.jpg"
+            src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520627/pic2_y9uglq.jpg"
             alt="Introduction"
             className="w-3/4 m-5 rounded-lg shadow-lg h-80"
           />
         </div>
-        {/* Our Initiative Section */}
+        {/* Our Mission Section */}
         <div className="w-full md:w-1/2 flex flex-col justify-evenly px-8 text-left">
         <h2 className="mb-4 text-3xl font-bold text-gray-800">Our Mission</h2>
         <p className="text-lg text-justify text-gray-600 font-arima">
@@ -78,7 +78,7 @@ const Home = () => {
 
         <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img
-            src="./src/assets/pic3.png"
+            src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520628/pic3_mrxmze.png"
             alt="About Us"
             className="w-3/4 m-5 rounded-lg shadow-lg h-80"
           />
@@ -89,7 +89,7 @@ const Home = () => {
       <div className="py-12 flex flex-col-reverse w-full md:flex-row">
         <div className="flex items-center mt-6 md:mt-0 justify-center w-full md:w-1/2">
           <img
-            src="./src/assets/moto_img.jpg"
+            src="https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520629/moto_img_ampqlh.jpg"
             alt="Our Initiative"
             className="w-3/4 m-5 rounded-lg shadow-2xl h-80"
             
