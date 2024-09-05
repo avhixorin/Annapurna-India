@@ -2,6 +2,10 @@
 
 ![Annapurna India](https://res.cloudinary.com/dlzly5cmd/image/upload/v1725520033/logo_LS_lmzpjq.png)
 
+## Hosted
+
+[vercel link](https://annapurna-india.vercel.app/)
+
 ## Introduction 🌱
 
 Annapurna India is a web-based platform dedicated to connecting people who want to donate and those in need across India. It provides a seamless way to donate food, essential supplies, and funds for charitable causes. The project aims to create a supportive community that fights hunger and helps improve the lives of underprivileged communities.
