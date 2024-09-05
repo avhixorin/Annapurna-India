@@ -4,7 +4,7 @@
 
 ## Hosted
 
-[vercel link](https://annapurna-india.vercel.app/)
+[Annapurna India](https://annapurna-india.vercel.app/)
 
 ## Introduction 🌱
 
